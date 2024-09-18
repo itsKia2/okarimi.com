@@ -35,27 +35,16 @@ node_modules/
 
 # Optional npm cache directory
 .npm
-
-# Optional eslint cache
 .eslintcache
-
-# Optional REPL history
 .node_repl_history
 
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
 .env
-
-# next.js build output
 .next
-
-# Lerna
-lerna-debug.log
+next-env.d.ts
 
 # System Files
 .DS_Store
