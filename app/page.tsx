@@ -12,13 +12,13 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <main className="bg-[#003049] px-10 md:px-20 lg:px-60">
+      <main className="bg-[#003049] px-[4%] md:px-[12%] lg:px-[15%]">
         <section>
-          <nav className="pt-10 pb-2 flex justify-between">
+          <nav className="pt-10 pb-2 flex flex-wrap flex-col sm:flex-row justify-between items-center">
             <h1 className="text-white font-black md:text-[40px] sm:text-[30px] xs:text-[30px] text-[20px]">
               Omer Karimi
             </h1>
-            <ul className="flex items-center">
+            <ul className="flex flex-wrap items-center justify-center mt-2 sm:mt-0">
               <Link className=" ml-3 md:ml- text-white" href="#Experience">
                 Experience
               </Link>
@@ -29,7 +29,7 @@ export default function Home() {
                 Contact
               </Link>
 
-              <button className="text-[#C0D6DF] outline outline-2 outline-white hover:bg-[#415A77] hover-text:  rounded px-4 py-1 ml-5 md:ml-8">
+              <button className="text-[#C0D6DF] outline outline-2 outline-white hover:bg-[#415A77] hover-text: rounded px-2 py-1 ml-5 md:ml-8 mb-2 mt-2 sm:mt-0">
                 <a href="Omer Karimi Resume.pdf" target="_blank">
                   Resume{" "}
                 </a>
