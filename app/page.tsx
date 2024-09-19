@@ -68,7 +68,7 @@ export default function Home() {
             Projects
           </h3>
           <div className="w-full flex">
-            <p className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]">
+            <p className="mt-3 text-white text-[17px] leading-[30px]">
               Each Project has a link to my GitHub code. Feel free to look at
               the quick video demos or check out my code.
             </p>
@@ -406,9 +406,9 @@ export default function Home() {
 
         <section id="Contact">
           <hr className="mt-20 h-0.5 border-t-0 bg-gray-300 opacity-100" />
-          <div className="py-10 text-5xl flex items-center justify-center align-items-center gap-16 text-gray-600">
+          <div className="py-10 text-5xl flex items-center justify-center align-items-center gap-10 sm:gap-16 text-gray-600">
             <p className="text-base py-4 leading-8 text-white">
-              okarimi@umass.edu
+              <a href="mailto:okarimi@umass.edu">okarimi@umass.edu</a>
             </p>
             <a
               href="https://github.com/itsKia2"
