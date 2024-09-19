@@ -45,19 +45,172 @@ export default function Home() {
               with backend, databases, and the wide field of data sciences.
             </p>
             <p className="text-base py-4 leading-8 text-white">
-              Currently, I am working with Professor Hamed Zamani at the Center
-              for Intelligent Information Retrieval as a research fellow,
-              focusing on developing methods and techniques for making large
-              language models more useful for individuals through
-              personalization. Over the summer, I worked on a research project
-              that focused on optimizing convolutional neural networks for
-              American Sign Language recognition and worked as a Data Science
-              Intern at Neftwerk.
+              Currently, I'm working on a range of personal projects, the latest
+              being Thinkerly, a productivity enhancing application written in
+              React-Native. This app was to focus on teaching myself how to do
+              cross-platform mobile development while implementing persistant
+              storage with SQLite. Before this, I collaborated with other
+              developers to create LeetBank, a web application to storing,
+              annotating, and categorizing LeetCode questions. This project was
+              written in React and deployed on Vercel. In the future, I look
+              forward to working on more data science heavy projects to garner a
+              wide range of skills.
             </p>
             <p className="text-base py-4 leading-8 text-white">
               Additionally, I'm a huge fan of reading books, currently reading
               Fyodor Dostoevsky's 'The Brothers Karamazov'.
             </p>
+          </div>
+        </section>
+
+        <section id="Projects">
+          <h3 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
+            Projects
+          </h3>
+          <div className="w-full flex">
+            <p className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]">
+              Each Project has a link to my GitHub code. Feel free to look at
+              the quick video demos or check out my code.
+            </p>
+          </div>
+          <div className="flex flex-col lg:flex-row mt-10 justify-center mb-10">
+            <div
+              className="bg-[#415A77] p-5 rounded-2xl
+     sm:w-[400px] min-w-[350px]  w-full mb-4"
+            >
+              <div className="relative w-full h-[240px]">
+                <video
+                  className="w-full h-full object-cover
+          rounded-2xl"
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source src="Demo.mp4" type="video/mp4" />
+                </video>
+
+                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/SatyaShodhaka/perfectpitch",
+                        "_blank",
+                      )
+                    }
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center
+            items-center cursor-pointer"
+                  >
+                    <img
+                      src="github.png"
+                      alt="github"
+                      className="bg-black rounded-full flex items-center justify-center text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <h3 className="text-white font-bold text-[24px]">
+                  PerfectPitch
+                </h3>
+                <p className="mt-2 text-gray-200  text-[14px]">
+                  AI-powered platform designed to provide tailored feedback,
+                  script assistance, and a performance score for personalized
+                  interview preparation.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="bg-[#415A77] p-5 rounded-2xl
+     sm:w-[400px] min-w-[350px] w-full lg:mr-8 lg:ml-8 mb-4"
+            >
+              <div className="relative w-full h-[240px]">
+                <video
+                  className="w-full h-full object-cover
+          rounded-2xl"
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source src="olympic.mp4" type="video/mp4" />
+                </video>
+
+                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/chaudharycoding/-Predictive-Analytics-for-Olympic-Medal-Counts-using-Machine-Learning-",
+                        "_blank",
+                      )
+                    }
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center
+            items-center cursor-pointer"
+                  >
+                    <img
+                      src="github.png"
+                      alt="github"
+                      className="bg-black rounded-full flex items-center justify-center text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <h3 className="text-white font-bold text-[24px]">
+                  Olympic Medal Predictor
+                </h3>
+                <p className="mt-2 text-gray-200  text-[14px]">
+                  Predictive analytics project designed to forecast Olympic
+                  medal counts using historical data and machine learning
+                  models.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="bg-[#415A77] p-5 rounded-2xl
+     sm:w-[400px] min-w-[350px] w-full mb-4 "
+            >
+              <div className="relative w-full h-[240px]">
+                <video
+                  className="w-full h-full object-cover
+          rounded-2xl"
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source src="leetbank.mp4" type="video/mp4" />
+                </video>
+
+                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/rahmanMian/LeetBank",
+                        "_blank",
+                      )
+                    }
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center
+            items-center cursor-pointer"
+                  >
+                    <img
+                      src="github.png"
+                      alt="github"
+                      className="bg-black rounded-full flex items-center justify-center text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <h3 className="text-white font-bold text-[24px]">LeetBank</h3>
+                <p className="mt-2 text-gray-200 text-[14px]">
+                  Web-based platform that is designed to help you store,
+                  annotate and manage your LeetCode questions efficiently.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -249,157 +402,6 @@ export default function Home() {
               </ul>
             </VerticalTimelineElement>
           </VerticalTimeline>
-        </section>
-
-        <section id="Projects">
-          <h3 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">
-            Projects
-          </h3>
-          <div className="w-full flex">
-            <p className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]">
-              Each Project has a link to my GitHub code. Feel free to look at
-              the quick video demos or check out my code.
-            </p>
-          </div>
-          <div className="flex flex-col lg:flex-row mt-20 justify-center">
-            <div
-              className="bg-[#415A77] p-5 rounded-2xl
-     sm:w-[400px] min-w-[350px]  w-full mb-4"
-            >
-              <div className="relative w-full h-[240px]">
-                <video
-                  className="w-full h-full object-cover
-          rounded-2xl"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  <source src="Demo.mp4" type="video/mp4" />
-                </video>
-
-                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <div
-                    onClick={() =>
-                      window.open(
-                        "https://github.com/SatyaShodhaka/perfectpitch",
-                        "_blank",
-                      )
-                    }
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center
-            items-center cursor-pointer"
-                  >
-                    <img
-                      src="github.png"
-                      alt="github"
-                      className="bg-black rounded-full flex items-center justify-center text-white"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5">
-                <h3 className="text-white font-bold text-[24px]">
-                  PerfectPitch
-                </h3>
-                <p className="mt-2 text-gray-200  text-[14px]">
-                  AI-powered platform designed to provide tailored feedback,
-                  script assistance, and a performance score for personalized
-                  interview preparation.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="bg-[#415A77] p-5 rounded-2xl
-     sm:w-[400px] min-w-[350px] w-full lg:mr-8 lg:ml-8 mb-4"
-            >
-              <div className="relative w-full h-[240px]">
-                <video
-                  className="w-full h-full object-cover
-          rounded-2xl"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  <source src="olympic.mp4" type="video/mp4" />
-                </video>
-
-                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <div
-                    onClick={() =>
-                      window.open(
-                        "https://github.com/chaudharycoding/-Predictive-Analytics-for-Olympic-Medal-Counts-using-Machine-Learning-",
-                        "_blank",
-                      )
-                    }
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center
-            items-center cursor-pointer"
-                  >
-                    <img
-                      src="github.png"
-                      alt="github"
-                      className="bg-black rounded-full flex items-center justify-center text-white"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5">
-                <h3 className="text-white font-bold text-[24px]">
-                  Olympic Medal Predictor
-                </h3>
-                <p className="mt-2 text-gray-200  text-[14px]">
-                  Predictive analytics project designed to forecast Olympic
-                  medal counts using historical data and machine learning
-                  models.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="bg-[#415A77] p-5 rounded-2xl
-     sm:w-[400px] min-w-[350px] w-full mb-4 "
-            >
-              <div className="relative w-full h-[240px]">
-                <video
-                  className="w-full h-full object-cover
-          rounded-2xl"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  <source src="leetbank.mp4" type="video/mp4" />
-                </video>
-
-                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <div
-                    onClick={() =>
-                      window.open(
-                        "https://github.com/rahmanMian/LeetBank",
-                        "_blank",
-                      )
-                    }
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center
-            items-center cursor-pointer"
-                  >
-                    <img
-                      src="github.png"
-                      alt="github"
-                      className="bg-black rounded-full flex items-center justify-center text-white"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5">
-                <h3 className="text-white font-bold text-[24px]">LeetBank</h3>
-                <p className="mt-2 text-gray-200 text-[14px]">
-                  Web-based platform that is designed to help you store,
-                  annotate and manage your LeetCode questions efficiently.
-                </p>
-              </div>
-            </div>
-          </div>
         </section>
 
         <section id="Contact">
