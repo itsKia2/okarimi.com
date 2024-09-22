@@ -1,6 +1,8 @@
 # okarimi.com
 > Portfolio website to showcase technical skills.
 
+https://github.com/user-attachments/assets/03fd6947-62e8-476f-812c-ae4ef320a6bc
+
 ## Getting Started
 
 Make sure to install all dependencies: 
