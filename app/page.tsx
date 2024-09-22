@@ -10,9 +10,10 @@ import "react-vertical-timeline-component/style.min.css";
 import Link from "next/link";
 
 export default function Home() {
+  /* blue is #2d545e // green is #357960 // dark blue is #12343b */
   return (
     <div>
-      <main className="bg-[#003049] px-[4%] md:px-[12%] lg:px-[15%]">
+      <main className="bg-[#2d545e] px-[4%] md:px-[12%] lg:px-[15%]">
         <section>
           <nav className="pt-10 pb-2 flex flex-wrap flex-col sm:flex-row justify-between items-center">
             <h1 className="text-white font-black md:text-[40px] sm:text-[30px] xs:text-[30px] text-[20px]">
@@ -86,100 +87,6 @@ export default function Home() {
                   loop
                   muted
                 >
-                  <source src="Demo.mp4" type="video/mp4" />
-                </video>
-
-                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <div
-                    onClick={() =>
-                      window.open(
-                        "https://github.com/SatyaShodhaka/perfectpitch",
-                        "_blank",
-                      )
-                    }
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center
-            items-center cursor-pointer"
-                  >
-                    <img
-                      src="github.png"
-                      alt="github"
-                      className="bg-black rounded-full flex items-center justify-center text-white"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5">
-                <h3 className="text-white font-bold text-[24px]">
-                  PerfectPitch
-                </h3>
-                <p className="mt-2 text-gray-200  text-[14px]">
-                  AI-powered platform designed to provide tailored feedback,
-                  script assistance, and a performance score for personalized
-                  interview preparation.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="bg-[#415A77] p-5 rounded-2xl
-     sm:w-[400px] min-w-[350px] w-full lg:mr-8 lg:ml-8 mb-4"
-            >
-              <div className="relative w-full h-[240px]">
-                <video
-                  className="w-full h-full object-cover
-          rounded-2xl"
-                  autoPlay
-                  loop
-                  muted
-                >
-                  <source src="olympic.mp4" type="video/mp4" />
-                </video>
-
-                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-                  <div
-                    onClick={() =>
-                      window.open(
-                        "https://github.com/chaudharycoding/-Predictive-Analytics-for-Olympic-Medal-Counts-using-Machine-Learning-",
-                        "_blank",
-                      )
-                    }
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center
-            items-center cursor-pointer"
-                  >
-                    <img
-                      src="github.png"
-                      alt="github"
-                      className="bg-black rounded-full flex items-center justify-center text-white"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5">
-                <h3 className="text-white font-bold text-[24px]">
-                  Olympic Medal Predictor
-                </h3>
-                <p className="mt-2 text-gray-200  text-[14px]">
-                  Predictive analytics project designed to forecast Olympic
-                  medal counts using historical data and machine learning
-                  models.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className="bg-[#415A77] p-5 rounded-2xl
-     sm:w-[400px] min-w-[350px] w-full mb-4 "
-            >
-              <div className="relative w-full h-[240px]">
-                <video
-                  className="w-full h-full object-cover
-          rounded-2xl"
-                  autoPlay
-                  loop
-                  muted
-                >
                   <source src="leetbank.mp4" type="video/mp4" />
                 </video>
 
@@ -205,9 +112,100 @@ export default function Home() {
 
               <div className="mt-5">
                 <h3 className="text-white font-bold text-[24px]">LeetBank</h3>
-                <p className="mt-2 text-gray-200 text-[14px]">
+                <p className="mt-2 text-gray-200  text-[14px]">
                   Web-based platform that is designed to help you store,
                   annotate and manage your LeetCode questions efficiently.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="bg-[#415A77] p-5 rounded-2xl
+     sm:w-[400px] min-w-[350px] w-full lg:mr-8 lg:ml-8 mb-4"
+            >
+              <div className="relative w-full h-[240px]">
+                <video
+                  className="w-full h-full object-cover
+          rounded-2xl"
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source src="thinkerlyDemo.mp4" type="video/mp4" />
+                </video>
+
+                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/itsKia2/Thinkerly",
+                        "_blank",
+                      )
+                    }
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center
+            items-center cursor-pointer"
+                  >
+                    <img
+                      src="github.png"
+                      alt="github"
+                      className="bg-black rounded-full flex items-center justify-center text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <h3 className="text-white font-bold text-[24px]">
+                  Thinkerly: Productivity Enhancement Mobile App
+                </h3>
+                <p className="mt-2 text-gray-200  text-[14px]">
+                  Cross-Platform iOS/Android mobile app to increase productivity
+                  through targeted focusing methods.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className="bg-[#415A77] p-5 rounded-2xl
+     sm:w-[400px] min-w-[350px] w-full mb-4 "
+            >
+              <div className="relative w-full h-[240px]">
+                <video
+                  className="w-full h-full object-cover
+          rounded-2xl"
+                  autoPlay
+                  loop
+                  muted
+                >
+                  <source src="leetbank.mp4" type="video/mp4" />
+                </video>
+
+                <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+                  <div
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/itsKia2/okarimi.com",
+                        "_blank",
+                      )
+                    }
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center
+            items-center cursor-pointer"
+                  >
+                    <img
+                      src="github.png"
+                      alt="github"
+                      className="bg-black rounded-full flex items-center justify-center text-white"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-5">
+                <h3 className="text-white font-bold text-[24px]">
+                  okarimi.net
+                </h3>
+                <p className="mt-2 text-gray-200 text-[14px]">
+                  My open-source portfolio website code itself!
                 </p>
               </div>
             </div>
@@ -225,13 +223,13 @@ export default function Home() {
               contentArrowStyle={{
                 borderRight: "8px solid  rgb(255, 255, 255)",
               }}
-              date="March 2024 - April 2024"
+              date="August 2022 - Present"
               iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
               icon={
                 <div className="flex justify-center items-center w-full h-full">
                   <img
-                    src="snapchat.png"
-                    alt="psfdsa"
+                    src="UMass.png"
+                    alt="UMass Logo"
                     className="w-[80%] h-[80%] object-contain"
                   />
                 </div>
@@ -240,30 +238,30 @@ export default function Home() {
             >
               <div>
                 <h3 className="text-white text-[24px] font-bold">
-                  AR & VR Developer Extern
+                  Office Assistant
                 </h3>
                 <p
                   className="text-secondary text-[16px] font-semibold"
                   style={{ margin: 0 }}
                 >
-                  Snap Inc.
+                  Office of Faculty Development, UMass Amherst
                 </p>
               </div>
 
               <ul className="mt-5 list-disc ml-5 space-y-2">
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Designed a soccer-themed AR lens incorporating Snap's Lens
-                  Studio and 3D modeling, certified by Snap Inc.’s Head of
-                  Entertainment.
+                  Engineered Python script to automate data aggregation and
+                  reports to reveal trend analysis across campus; saved 27 hours
+                  of manual work each time it was run.
                 </li>
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Launched a Snapchat lens inspired by Reebok and soccer,
-                  compatible with iOS and Android, gathering views from 100+
-                  countries.
+                  Designed and distribute 150+ campus-wide Qualtrics surveys
+                  annually for 2,000+ faculty, contributing to data collection
+                  and event management.
                 </li>
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Conducted data-driven market research in sports and technology
-                  using Tableau, and MySQL enhancing data visualization by 30%.
+                  Improved office efficiency overall by 25% through migrating to
+                  cloud tools such as monday.com
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -273,12 +271,12 @@ export default function Home() {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(255, 255, 255)",
               }}
-              date="May 2024 - July 2024"
+              date="May 2023 - Present"
               iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
               icon={
                 <div className="flex justify-center items-center w-full h-full">
                   <img
-                    src="result.png"
+                    src="pso.png"
                     alt="psfdsa"
                     className="w-[90%] h-[90%] object-contain"
                   />
