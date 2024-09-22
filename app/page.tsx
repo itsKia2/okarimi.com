@@ -70,7 +70,7 @@ export default function Home() {
           </h3>
           <div className="w-full flex">
             <p className="mt-3 text-white text-[17px] leading-[30px]">
-              Each Project has a link to my GitHub code. Feel free to look at
+              Each project has a link to my GitHub code. Feel free to look at
               the quick video demos or check out my code.
             </p>
           </div>
@@ -250,12 +250,12 @@ export default function Home() {
 
               <ul className="mt-5 list-disc ml-5 space-y-2">
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Engineered Python script to automate data aggregation and
-                  reports to reveal trend analysis across campus; saved 27 hours
-                  of manual work each time it was run.
+                  Engineered Python script to automate data reports and reveal
+                  trend analysis across campus. It saved 27 hours of manual work
+                  quarterly.
                 </li>
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Designed and distribute 150+ campus-wide Qualtrics surveys
+                  Designed and distributed 150+ campus-wide Qualtrics surveys
                   annually for 2,000+ faculty, contributing to data collection
                   and event management.
                 </li>
@@ -271,7 +271,7 @@ export default function Home() {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(255, 255, 255)",
               }}
-              date="May 2023 - Present"
+              date="April 2023 - Present"
               iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
               icon={
                 <div className="flex justify-center items-center w-full h-full">
@@ -285,32 +285,24 @@ export default function Home() {
               visible={true}
             >
               <div>
-                <h3 className="text-white text-[24px] font-bold">
-                  Data Science Intern
-                </h3>
+                <h3 className="text-white text-[24px] font-bold">Secretary</h3>
                 <p
                   className="text-secondary text-[16px] font-semibold"
                   style={{ margin: 0 }}
                 >
-                  Neftwerk
+                  Pakistani Student Organization
                 </p>
               </div>
 
               <ul className="mt-5 list-disc ml-5 space-y-2">
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Designed and sorted data from CSVs to Attio dashboards to
-                  improve client information accuracy and operational efficiency
-                  by 60%.
+                  Directed the planning and execution of large-scale cultural
+                  awareness events. These events attracted 500+ multi-cultural
+                  attendees
                 </li>
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Leveraged Attio’s REST API to implement filtering and
-                  pagination, optimizing data retrieval by 30% and enhancing
-                  user experience.
-                </li>
-                <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Structured app’s code and documentation on GitHub,
-                  contributing to increased project workflows and easier team
-                  collaboration.
+                  Led outreach and marketing efforts to other organizations;
+                  boosted member count by 34%
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -320,12 +312,12 @@ export default function Home() {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(255, 255, 255)",
               }}
-              date="Sep 2024 - present"
+              date="May 2023 - July 2023"
               iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
               icon={
                 <div className="flex justify-center items-center w-full h-full">
                   <img
-                    src="lab.png"
+                    src="walmart.png"
                     alt="psfdsa"
                     className="w-[90%] h-[90%] object-contain"
                   />
@@ -335,19 +327,23 @@ export default function Home() {
             >
               <div>
                 <h3 className="text-white text-[24px] font-bold">
-                  Personalizing LLM Research Fellow
+                  Front-End Associate
                 </h3>
                 <p
                   className="text-secondary text-[16px] font-semibold"
                   style={{ margin: 0 }}
                 >
-                  Center for Intelligent Information Retrieval
+                  Walmart
                 </p>
               </div>
 
               <ul className="mt-5 list-disc ml-5 space-y-2">
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  TBD
+                  Utilized POS systems to process $7,000+ reliably and daily
+                </li>
+                <li className="text-white-100 text-[14px] l-1 tracking-wider">
+                  Ensured consistent customer satisfaction in fast-paced
+                  environment
                 </li>
               </ul>
             </VerticalTimelineElement>
@@ -362,7 +358,7 @@ export default function Home() {
               icon={
                 <div className="flex justify-center items-center w-full h-full">
                   <img
-                    src="UMass.png"
+                    src="haque.png"
                     alt="psfdsa"
                     className="w-[80%] h-[80%] object-contain"
                   />
@@ -372,30 +368,24 @@ export default function Home() {
             >
               <div>
                 <h3 className="text-white text-[24px] font-bold">
-                  Undergraduate ML Researcher{" "}
+                  Technology Instructor / Intern
                 </h3>
                 <p
                   className="text-secondary text-[16px] font-semibold"
                   style={{ margin: 0 }}
                 >
-                  University of Massachusetts Amherst
+                  Haque Academy
                 </p>
               </div>
 
               <ul className="mt-5 list-disc ml-5 space-y-2">
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Optimized a CNN for ASL recognition, achieving a 97% F1 score
-                  through data augmentation and additional convolutional layers.
+                  Taught coding logic and core game development principles to
+                  kids aged 6-8 via Scratch, resulting in interactive projects
                 </li>
                 <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Utilized ResNet pre-trained models to enhance accuracy to 98%
-                  and reduce overfitting, improving generalization on unseen
-                  data.
-                </li>
-                <li className="text-white-100 text-[14px] l-1 tracking-wider">
-                  Enhanced model robustness in Keras with batch normalization,
-                  and the Image Data Generator for consistent validation
-                  performance.
+                  Utilized project-based learning to teach user interface
+                  design, fostering problem-solving and creative thinking
                 </li>
               </ul>
             </VerticalTimelineElement>
